@@ -1,0 +1,36 @@
+1	f,c,a,m,p,i,g,d
+2	f,c,a,b,m,l,,o
+3	f,b,h,j,o
+4	c,b,p,k,s
+5	f,c,a,m,p,e,l,n
+
+
+asgari destek(frekans): 3
+
+******************************
+destek miktarýný geçenler aþaðýda geçemeyler elendi
+
+f 4
+c 4
+a 3
+b 3
+m 3
+p 3
+
+******************************
+1	f,c,a,m,p
+2	f,c,a,b,m
+3	f,b
+4	c,b,p
+5	f,c,a,m,p
+
+
+
+***************************	
+f 	f4
+c 	c3 c1
+a 	a3
+b 	b1 b1 b1
+m 	m2 m1
+p 	p2 p1
+

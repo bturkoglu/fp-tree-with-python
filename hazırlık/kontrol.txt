@@ -1,0 +1,67 @@
+frequent_items:
+['f', 'c', 'a', 'p', 'b', 'm']
+
+fp_tree:
+item: None, count:0 Parent:Root, Mark:0,Condition:0, child adedi:2
+Childrens:
+item: f, count:4 Parent:None, Mark:0,Condition:0, child adedi:2
+Childrens:
+item: c, count:3 Parent:f, Mark:0,Condition:0, child adedi:1
+Childrens:
+item: a, count:3 Parent:c, Mark:0,Condition:0, child adedi:2
+Childrens:
+item: p, count:2 Parent:a, Mark:0,Condition:0, child adedi:1
+Childrens:
+item: m, count:2 Parent:p, Mark:0,Condition:0, child adedi:0
+Childrens:
+
+
+item: b, count:1 Parent:a, Mark:0,Condition:0, child adedi:1
+Childrens:
+item: m, count:1 Parent:b, Mark:0,Condition:0, child adedi:0
+Childrens:
+
+
+
+
+item: b, count:1 Parent:f, Mark:0,Condition:0, child adedi:0
+Childrens:
+
+
+item: c, count:1 Parent:None, Mark:0,Condition:0, child adedi:1
+Childrens:
+item: p, count:1 Parent:c, Mark:0,Condition:0, child adedi:1
+Childrens:
+item: b, count:1 Parent:p, Mark:0,Condition:0, child adedi:0
+Childrens:
+
+
+
+
+
+header_table:
+f : [<__main__.FPnode object at 0x01F06D10>]
+a : [<__main__.FPnode object at 0x01F06FF0>]
+p : [<__main__.FPnode object at 0x01F10030>, <__main__.FPnode object at 0x01F100F0>]
+c : [<__main__.FPnode object at 0x01F06FD0>, <__main__.FPnode object at 0x01F100D0>]
+b : [<__main__.FPnode object at 0x01F10070>, <__main__.FPnode object at 0x01F100B0>, <__main__.FPnode object at 0x01F10110>]
+m : [<__main__.FPnode object at 0x01F10050>, <__main__.FPnode object at 0x01F10090>]
+pattern: ['a'], support:3
+pattern: ['p'], support:3
+pattern: ['b'], support:3
+pattern: ['m'], support:3
+pattern: ['f'], support:4
+pattern: ['c'], support:4
+pattern: ['f', 'a'], support:3
+pattern: ['c', 'a'], support:3
+pattern: ['c', 'p'], support:3
+pattern: ['f', 'c'], support:3
+pattern: ['f', 'm'], support:3
+pattern: ['c', 'm'], support:3
+pattern: ['a', 'm'], support:3
+pattern: ['f', 'c', 'a'], support:3
+pattern: ['f', 'c', 'm'], support:3
+pattern: ['f', 'a', 'm'], support:3
+pattern: ['c', 'a', 'm'], support:3
+pattern: ['f', 'c', 'a', 'm'], support:3
+>>> ================= RESTART =================
